@@ -7,9 +7,9 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 const Footer = () => {
     return (
         <>
-            <Box sx={{ textAlign: 'center', bgcolor: 'black', color: 'white', p: 3,display: 'flex',justifyContent: 'center',alignItems: 'center' }}>
-                <Box marginRight='15px' sx={{display: 'flex',justifyContent: 'space-evenly',"& svg":{
-                    fontSize: "30px",
+            <Box sx={{ textAlign: 'center', bgcolor: 'black', color: 'white', p: 3}}>
+                <Box marginRight='15px' sx={{display: 'flex',justifyContent: 'center',"& svg":{
+                    fontSize: "40px",
                     cursor: "pointer",
                     mr: 2,
                 }}}>
