@@ -8,6 +8,9 @@ const About = () => {
       <Box sx={{
         my: 15,
         textAlign: 'center',
+        "@media (max-width: 600px)": {
+          mt: 0,   
+        }
       }}>
       <Typography variant = 'h4' sx={{marginBottom: '30px'}}>
         Welcome To My Restaurant
