@@ -8,6 +8,7 @@ const About = () => {
       <Box sx={{
         my: 15,
         textAlign: 'center',
+        mt: 12,
       }}>
       <Typography variant = 'h4' sx={{marginBottom: '30px'}}>
         Welcome To My Restaurant
