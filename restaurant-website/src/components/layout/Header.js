@@ -11,7 +11,7 @@ import {
 import Logo from "../../logo.svg";
 import FastfoodIcon from '@mui/icons-material/Fastfood';
 import MenuIcon from "@mui/icons-material/Menu";
-import { NavLink } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 import "../../styles/HeaderStyles.css";
 const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -29,7 +29,9 @@ const Header = () => {
         sx={{ flexGrow: 1, my: 2 }}
       >
         {/* <img src={Logo} alt="logo" height={"70"} width="200" /> */}
-        <FastfoodIcon />
+        <Link  to={"/"}>
+          <FastfoodIcon />
+        </Link>
         My Restaurant
       </Typography>
       <Divider />

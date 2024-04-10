@@ -8,16 +8,16 @@ const Contact = () => {
   return (
     <Layout>
       <Box>
-        <Typography sx={{ textAlign: 'center', fontSize: '2rem' }}>
+        <Typography sx={{ textAlign: 'center', fontSize: '3rem' }}>
           <h4>Contact My Restaurant</h4>
         </Typography>
-        <p style={{ textAlign: 'center', fontSize: '1.2rem' }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate commodi doloremque quidem iste officiis explicabo dolor. Eos porro neque quisquam quibusdam tempora obcaecati temporibus vitae tenetur cumque officia. Animi, dolorum!</p>
+        <p style={{ textAlign: 'center', fontSize: '1.3rem' }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate commodi doloremque quidem iste officiis explicabo dolor. Eos porro neque quisquam quibusdam tempora obcaecati temporibus vitae tenetur cumque officia. Animi, dolorum!</p>
       </Box>
-      <Box>
+      <Box sx={{m: 7}}>
         <TableContainer component={Paper}>
           <Table aria-label='contact table'>
             <TableHead>
-              <TableRow>
+              <TableRow sx={{m: 5}}>
                 <TableCell sx={{textAlign: 'center',backgroundColor: 'black', color: 'white',fontSize: '1.4rem'}}>Contact Details</TableCell>
               </TableRow>
             </TableHead>
