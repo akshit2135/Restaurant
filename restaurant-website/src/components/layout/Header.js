@@ -8,10 +8,10 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
-import Logo from "../../logo.svg";
+import Logo from "../../images/logo.svg";
 import FastfoodIcon from '@mui/icons-material/Fastfood';
 import MenuIcon from "@mui/icons-material/Menu";
-import { NavLink,Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import "../../styles/HeaderStyles.css";
 const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -28,11 +28,9 @@ const Header = () => {
         component="div"
         sx={{ flexGrow: 1, my: 2 }}
       >
-        {/* <img src={Logo} alt="logo" height={"70"} width="200" /> */}
-        <Link  to={"/"}>
-          <FastfoodIcon />
+        <Link to={'/'}>
+          <img src={Logo} alt="logo" height={"70"} width="250" />
         </Link>
-        My Restaurant
       </Typography>
       <Divider />
       <ul className="mobile-navigation">
@@ -76,9 +74,10 @@ const Header = () => {
               component="div"
               sx={{ flexGrow: 1 }}
             >
-              <FastfoodIcon />
-              My Restaurant
-              {/* <img src={Logo} alt="logo" height={"70"} width="250" /> */}
+              <Link to={'/'}>
+                <img src={Logo} alt="logo" height={"70"} width="250" />
+              </Link>
+
             </Typography>
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               <ul className="navigation-menu">
