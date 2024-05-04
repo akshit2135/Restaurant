@@ -7,7 +7,7 @@ import { Box, Card, CardActionArea, CardMedia, CardContent, Typography } from '@
 const Menu = () => {
   return (
     <Layout>
-      <Box sx={{display: 'flex', flexWrap: 'wrap',justifyContent: 'center'}}>
+      <Box sx={{display: 'flex', flexWrap: 'wrap',justifyContent: 'center',marginTop: 5}}>
       {
         MenuList.map(menu => (
           <Card sx={{maxWidth: {xs: '200px', sm: '390px'},display: 'flex',m: 2 }}>
@@ -19,6 +19,9 @@ const Menu = () => {
                 </Typography>
                 <Typography variant='body2' sx={{fontSize: {xs: '12px',sm: '20px'}}}> 
                   {menu.description}
+                </Typography>
+                <Typography>
+                  price: {menu.price} rupees
                 </Typography>
               </CardContent>
             </CardActionArea>
