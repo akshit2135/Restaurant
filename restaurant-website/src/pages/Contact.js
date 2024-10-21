@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout/Layout'
-import { Box, Typography, TableContainer, Paper, Table } from "@mui/material"
+import { Box, Typography, TableContainer, Paper, Table, TableHead } from "@mui/material"
 
 const Contact = () => {
   return (
