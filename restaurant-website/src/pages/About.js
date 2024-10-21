@@ -12,7 +12,7 @@ const About = () => {
           mt: 0,   
         }
       }}>
-      <Typography variant = 'h4' sx={{marginBottom: '30px'}}>
+      <Typography variant = 'h3' sx={{marginBottom: '30px'}}>
         Welcome To My Restaurant
         </Typography>
         <p style={{fontSize: '20px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ducimus eaque, fuga reprehenderit incidunt corporis. Deserunt, unde eligendi perspiciatis et totam minus facilis dicta doloribus beatae, molestiae id natus. Dolores velit laborum officia impedit reprehenderit, minus delectus culpa quos eos ipsa laudantium tenetur illum. Voluptate cupiditate dignissimos quod eius molestiae quo autem numquam magni velit quibusdam facilis perferendis dolorem libero, ipsam dolores, placeat ut cum illum accusamus ab distinctio, delectus impedit. Repellendus ullam voluptate, ipsum veritatis esse consequatur ipsa officia, dolore excepturi totam explicabo fugiat nihil dolores doloremque odio tempore. Praesentium facere corrupti dicta unde nulla error explicabo enim corporis.</p>
