@@ -19,8 +19,8 @@ const Contact = () => {
       </Box>
       <Box>
         <TableContainer component={Paper} sx={{display: 'flex', justifyContent: 'center'}}>
-          <Table aria-label='contact table' sx={{width: '90%', boxShadow: 5, marginBottom: 7, "&media (max-width: 600px)": {width: '300px'}}} >
-            <TableHead>  
+          <Table aria-label='contact table' sx={{width: '60%', boxShadow: 5, marginBottom: 7, "&media (max-width: 600px)": {width: '300px'}}} >
+            <TableHead>
               <TableRow>
                 <TableCell sx={{textAlign: 'center', fontSize: 22, backgroundColor: 'black', color: 'white'}}>
                   Contact Details
@@ -29,17 +29,17 @@ const Contact = () => {
             </TableHead>
             <TableBody>
               <TableRow>
-                <TableCell>
+                <TableCell sx={{textAlign: 'center'}}>
                   <SupportAgentIcon sx={{pt: 2, pr: 1, color: 'red'}}/> 1234567890 (toll free)
                 </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell >
+                <TableCell sx={{textAlign: 'center'}}>
                   <EmailIcon sx={{pt: 2, pr: 1, color: 'blue'}}/> help@myrestaurant
                 </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>
+                <TableCell sx={{textAlign: 'center'}}>
                   <CallIcon sx={{pt: 2, pr: 1, color: 'green'}}/> 9649342323
                 </TableCell>
               </TableRow>
